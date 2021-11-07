@@ -28,10 +28,8 @@ if  __name__ == '__main__':
     while True:       
         value = read_value()
         task={"temperature": value}
-        ##http://demo.thingsboard.io/
-        #https://thingsboard.io/docs/reference/http-api/
-        #http(s)://host:port/api/v1/$ACCESS_TOKEN/telemetry
-        REST_API=requests.post("https://demo.thingsboard.io/api/v1/1VsdK2HvPYaKQBYxcJ2e/telemetry",json=task)
-        #printing the value on the bash
+        ACCESS_TOKEN="1VsdK2HvPYaKQBYxcJ2e"
+        REST_API=requests.post("https://demo.thingsboard.io/api/v1/"+ACCESS_TOKEN+"/telemetry",json=task)
+        #printing the value on the terminal
         print(value)
         
