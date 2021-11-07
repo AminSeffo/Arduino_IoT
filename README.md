@@ -16,7 +16,7 @@ Go to _src_  and edit **thingsboard.py** by replacing **ACCESS_TOKEN** with your
 ```bash
 python thingsboard.py 
 ```
-Go back to the Thingsboard and you will see your new temperature signal :)
+Go back to the Thingsboard and you will see the arduino temperature signal :)
 
 
 
