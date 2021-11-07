@@ -16,8 +16,7 @@ Go to _src_  and edit **thingsboard.py** by adding the access token id from your
 ```bash
 python thingsboard.py 
 ```
-
-
+Go back to the Thingsboard and you will see your new temperature signal :)
 
 
 
