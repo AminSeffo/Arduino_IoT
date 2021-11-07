@@ -11,7 +11,7 @@ https://de.mathworks.com/help/supportpkg/arduino/ref/send-and-receive-serial-dat
 - [ ] Add your new device to the new created dashbaord and select **chart** to display the temperature
 
 # Run the Python scrpit
-Go to _src_  and edit **thingsboard.py** by replacing **ACCESS_TOKEN ** with yours from thingsboard, finally run the script:
+Go to _src_  and edit **thingsboard.py** by replacing **ACCESS_TOKEN** with yours from thingsboard, finally run the script:
 
 ```bash
 python thingsboard.py 
