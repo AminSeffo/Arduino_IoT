@@ -8,7 +8,7 @@ https://de.mathworks.com/help/supportpkg/arduino/ref/send-and-receive-serial-dat
 - [ ] Firstly you have to create a demo account on [Thingsboard](http://demo.thingsboard.io/home), dont worry it is free!!
 - [ ] Create a new Dashbaord and then go to _Devices>Add device>Add new device_
 - [ ] Under Name add "Arduino_Iot" or your favorite one then click on "copy access token"
-- [ ] Add your new device to the new Dashbaord and select **chart** to display the temperature
+- [ ] Add your new device to the new created dashbaord and select **chart** to display the temperature
 
 # Run the Python scrpit
 Go to _src_  and edit **thingsboard.py** by replacing **ACCESS_TOKEN ** with yours from thingsboard, finally run the script:
