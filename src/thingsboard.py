@@ -9,7 +9,7 @@ import json
 import requests
 import time
 
-#define a varialbel to get data from the serial COM
+#define a variable to get data from the serial COM
 #PLEASE CHECK YOUR COM via device mangager!!
 
 arduino_iot = serial.Serial(port='COM8', baudrate=115200,parity=serial.PARITY_NONE,stopbits=serial.STOPBITS_ONE,bytesize=serial.EIGHTBITS,timeout=.1)
